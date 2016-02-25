@@ -1,11 +1,11 @@
-# eagleye-dubbo-kafka-producer
+# eagleye-kafka-producer
 
 ## 接入方式
 
 ```
 <dependency>
 	<groupId>com.yougou</groupId>
-	<artifactId>eagleye-dubbo-kafka-producer</artifactId>
+	<artifactId>eagleye-kafka-producer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```

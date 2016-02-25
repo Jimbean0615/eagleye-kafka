@@ -1,7 +1,7 @@
-# eagleye-dubbo-kafka-consumer
+# eagleye-kafka-consumer
 
 ## 1.用途
-eagleye-dubbo-kafka-consumer用户从接收kafka日志消息
+eagleye-kafka-consumer用户从接收kafka日志消息
 
 ## 2.使用方法
 	
@@ -47,8 +47,8 @@ eagleye.admin.alert.redis.port=6379
 
 
 ####send email and sms interface
-eagleye.admin.sendEmailUrl=http://10.10.10.30:8849/messenger/sendEmailForSystem.do
-eagleye.admin.sendSmsUrl=http://10.10.10.30:8849/messenger/sendSms.do
+eagleye.admin.sendEmailUrl=http://127.0.0.1:8849/messenger/sendEmailForSystem.do
+eagleye.admin.sendSmsUrl=http://127.0.0.1:8849/messenger/sendSms.do
 
 
 ####alert frequence default 10 min
