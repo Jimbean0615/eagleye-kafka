@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.yougou</groupId>
+	<artifactId>eagleye-kafka</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
+
+	<packaging>pom</packaging>
+	<name>${project.artifactId}</name>
+	<description></description>
+
+	<properties>
+		<skip_maven_deploy>true</skip_maven_deploy>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<slf4j.version>1.6.4</slf4j.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>${slf4j.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<modules>
+		<module>eagleye-kafka-consumer</module>
+		<module>eagleye-kafka-producer</module>
+	</modules>
+</project>
